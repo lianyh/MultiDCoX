@@ -14,7 +14,7 @@ Steps To Run MDCoX:
 
 a) Input:  Attribute file  Gene expression data file  outputFolder/
 
-b) Command:  Rscript  preProcessAtrributeAndExpression example/attributes.txt example/gene_expressionData.txt preprocessed/
+b) Command:  Rscript  preProcessAtrributeAndGeneExpression example/attributes.txt example/gene_expressionData.txt preprocessed/
 
 c) Output:  processedExpressionMDCX.txt  processedSampleAttributeMDCX.txt  processedGroupsMDCX.txt  GroupsInfoMDCX.txt
     Remarks:  The attribute file must contain header of GeneName (1st column) and related sample IDs. The GeneName column could be the value of gene name or probe ID. The GroupsInfoMDCX.txt file contains all the groups (stratum-wise) information, the group number and related samples’ columns number of the processedExpressionMDC.txt file. You can to refer to this file for group (stratum-wise) information.
