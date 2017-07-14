@@ -1,9 +1,11 @@
 MultiDCoX - Manual
-Example Data-------------Please refer to an "example" folder data for a list of files and its format required for the input to MDCoX program.
+Example Data:
+Please refer to an "example" folder data for a list of files and its format required for the input to MDCoX program.
 
 Remarks
 All data files’ contents must be tab-separatedThe gene expression file’s first column should be a gene symbols (name) or probe Id. We do not encourage empty gene name or symbol neither the gene name with NA label.  If the user gives the gene name or symbol with NA we will exclude these rows for further processing by MDCoX.
-Steps To Run MDCoX--------------
+
+Steps To Run MDCoX:
 1)  Re-organize the input files (gene expression data and attribute file) such that samples are organized based on the group or stratum.
  a) Input:  Attribute file  Gene expression data file  Output folder (ended with slash “/’)
  b) Command:  Rscript  preProcessAtrributeAndExpression example/attributes.txt   example/gene_expressionData.txt  preprocessed /
