@@ -41,9 +41,11 @@ outputFolder/
 b) Command: Rscript MGeneset.R genelistRowNumber processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt results/
 <br />Remarks:  --help For help how to use it, type:   Rscript MGeneset.R --help
 
-c) Output:  GenesetResults_10_52_39_09_10_2016.txt  COVARIATES_Plot_10_52_39_09_10_2016.png  STRATUM_Plot_10_52_39_09_10_2016.png
-
-
+c) Output:  <br />
+GenesetResults_10_52_39_09_10_2016.txt  <br />
+COVARIATES_Plot_10_52_39_09_10_2016.png  <br />
+STRATUM_Plot_10_52_39_09_10_2016.png
+<br />
 
 Please contact the author of this script Herty Liany, email: e0146315@u.nus.edu if you encountered any problems in running this script or to report the errors. Thank you.
 #This program is Free for Non-Commercial Use.#Copyright Year(2017)
