@@ -24,7 +24,7 @@ Remarks:  The attribute file must contain header of GeneName (1st column) and r
 a) Input: processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt outputFolder/
 Remarks: The input files for MDCoX program is the output files from pre-processing in Step 1.
 
-b) Command: Rscript MDCoX.R processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt results/
+b) Command: Rscript MDCoX.R processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt results/ 
 Remarks:  --help For help how to use it, type: Rscript MDCoX.R
 
 c) Output:  MultiDCoxGenesetResults_15_29_59_07_10_2016.txt  Threshold_Density_Plot.png
