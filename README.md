@@ -36,7 +36,7 @@ processedSampleAttributeMDCX.txt <br />
 processedExpressionMDCX.txt<br />
 processedGroupsMDCX.txt <br />
 outputFolder/
-<br />Remarks:  For a gene list file input, this can be a list of gene name or probe Id or genes’ row number based on the output results from MDCoX program. If you have duplicate gene name, we encourage you to supply a list of row number output (GIDX) from the MDCoX.R results. Please refer to example/genelist folder for the format (i.e genelist.txt file or genelistRowNumber.txt file).
+<br /><br />Remarks:  For a gene list file input, this can be a list of gene name or probe Id or genes’ row number based on the output results from MDCoX program. If you have duplicate gene name, we encourage you to supply a list of row number output (GIDX) from the MDCoX.R results. Please refer to example/genelist folder for the format (i.e genelist.txt file or genelistRowNumber.txt file).
 
 b) Command: Rscript MGeneset.R genelistRowNumber processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt results/
 <br />Remarks:  --help For help how to use it, type:   Rscript MGeneset.R --help
