@@ -53,7 +53,7 @@ checkIfNumeric <- function (x) {
 	g_attr<-as.matrix(attr)
 	
 	mydat<-read.table(dataPath,header=T,check.names=FALSE)
-	mydat <-na.omit(mydat)
+	#mydat <-na.omit(mydat)
 	gnlist<-mydat[,1]
 	mydat<-mydat[,-1]
 	myGeneList<-NULL
