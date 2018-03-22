@@ -1,5 +1,5 @@
 #This program is Free for Non-Commercial Use.
-#Author: Herty Liany. email: lianyh@gis.a-star.edu.sg, e0146315@u.nus.edu
+#Author: Herty Liany. email: e0146315@u.nus.edu
 #Copyright Year(2017)
 #############################################################################
 
