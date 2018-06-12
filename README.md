@@ -39,7 +39,7 @@ b) Command: Rscript MDCoX.R processedSampleAttributeMDCX.txt processedExpressio
 <br />Remarks:  --help For help how to use it, type: Rscript MDCoX.R
 
 c) Output:<br />
-MultiDCoxGenesetResults_15_29_59_07_10_2016.txt<br />
+MultiDCoxGenesetResults_15_29_59_06_10_2018.txt<br />
 Threshold_Density_Plot.png<br />
 
 3)  To retrieve a particular geneset statistic (the related covariates’ model statistic) and its factor-wise or group-wise visualization plots.
@@ -56,9 +56,9 @@ b) Command: Rscript MGeneset.R genelistRowNumber processedSampleAttributeMDC
 <br />Remarks:  --help For help how to use it, type:   Rscript MGeneset.R --help
 
 c) Output:  <br />
-GenesetResults_10_52_39_09_10_2016.txt  <br />
-COVARIATES_Plot_10_52_39_09_10_2016.png  <br />
-STRATUM_Plot_10_52_39_09_10_2016.png
+GenesetResults_10_52_39_09_10_2018.txt  <br />
+COVARIATES_Plot_10_52_39_09_10_2018.png  <br />
+STRATUM_Plot_10_52_39_09_10_2018.png
 <br />
 <br />
 <br />
