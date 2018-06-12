@@ -12,7 +12,10 @@ Steps To Run MDCoX:
 
 1)  Re-organize the input files (gene expression data and attribute file) such that samples are organized based on the group or stratum.
 
-a) Input: <br /> Attribute file <br />  Gene expression data file <br />  outputFolder/ <br />
+a) Input: <br />
+Attribute file<br />
+Gene expression data file <br />
+outputFolder/ <br />
 
 b) Command:  Rscript  preProcessAttributeAndGeneExpression.R example/attributes.txt example/gene_expressionData.txt preprocessed/
 
