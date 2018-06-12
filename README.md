@@ -2,7 +2,7 @@ MultiDCoX - Manual
 
 Example Data:
 
-Please refer to an "example" folder data for a list of files and its format required for the input to MDCoX program.
+Please refer to an "example" folder data for a list of files and format required for the input to MDCoX program.
 
 Remarks:
 
