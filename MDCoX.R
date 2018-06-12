@@ -486,7 +486,10 @@ filterCoefficient<- function(z,num_row,gidx,rAttrName,profileMatrix,prefix,fm,st
 	myTimestamp=format(Sys.time(), "%H_%M_%S_%d_%m_%Y")
 	log_summary=paste(out,"MultiDCoxGenesetResults_",myTimestamp,".txt", sep = "")
 	str=paste("Method","Run_Number","GIDX","Genes","Total_Genes",sep="\t")
-	
+	if (!(file.exists(out)))
+	{
+	     dir.create(out)
+	} 
 
 	All_coeff <- vector()
 	fm<-matrix()
@@ -586,7 +589,7 @@ filterCoefficient<- function(z,num_row,gidx,rAttrName,profileMatrix,prefix,fm,st
 		g_idx=c(initGene[k])
 
 		#ignore gene with NA name, move to next iteration
-		if (is.na(gnlist[g_idx]) || gnlist[g_idx]=="NA" ) { next }
+		if (length(g_idx) == 0 || is.na(gnlist[g_idx]) || gnlist[g_idx]=="NA" ) { next }
 	
 		#to exclude the g_idx which paired with its own partner, i.e. gene index 24 and gene index 24 pairing should be excluded
 		c_num_row=1:num_row
@@ -702,14 +705,21 @@ filterCoefficient<- function(z,num_row,gidx,rAttrName,profileMatrix,prefix,fm,st
 	##############################################################################################################################################################
 	for (h in 1:nrAttr)
 	{
-		if(!is.na(eval(parse(text=paste(rAttrName[h],"_max_seeds[1]",sep=""))))){
+		if((!is.na(eval(parse(text=paste(rAttrName[h],"_max_seeds[1]",sep=""))))) &&
+(!is.na(eval(parse(text=paste(rAttrName[h],"_max_seeds[1,2]",sep=""))))))
+{
+
+
+
 			f=paste(rAttrName[h],"_max_seeds=",rAttrName[h],"_max_seeds[order(",rAttrName[h],"_max_seeds[,3],decreasing=T),] ",sep="")
 			eval(parse(text=f))
 			
 			f=paste("fxGetCovariateGeneSet('Max",rAttrName[h],"',",rAttrName[h],"_max_seeds,initGene,num_row,gnlist,z,rAttrName,threshold_all,fm) ",sep="")
 			eval(parse(text=f))
 		}
-		if(!is.na(eval(parse(text=paste(rAttrName[h],"_min_seeds[1]",sep=""))))){
+		if((!is.na(eval(parse(text=paste(rAttrName[h],"_min_seeds[1]",sep=""))))) &&
+(!is.na(eval(parse(text=paste(rAttrName[h],"_min_seeds[1,2]",sep=""))))))
+{
 			f=paste(rAttrName[h],"_min_seeds=",rAttrName[h],"_min_seeds[order(",rAttrName[h],"_min_seeds[,3],decreasing=F),] ",sep="")
 			eval(parse(text=f))
 			
