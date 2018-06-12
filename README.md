@@ -31,7 +31,8 @@ c) Output:  MultiDCoxGenesetResults_15_29_59_07_10_2016.txt  Threshold_Dens
 
 3)  To retrieve a particular geneset statistic (the related covariates’ model statistic) and its factor-wise or group-wise visualization plots.
 
-a) Input:  A_gene_list_file:<br />
+a) Input:  
+A_gene_list_file<br />
 processedSampleAttributeMDCX.txt <br />
 processedExpressionMDCX.txt<br />
 processedGroupsMDCX.txt <br />
