@@ -33,7 +33,7 @@ processedSampleAttributeMDCX.txt<br />
 processedExpressionMDCX.txt<br />
 processedGroupsMDCX.txt<br />
 outputFolder/ <br />
-<br />Remarks: The input files for MDCoX program is the output files from pre-processing in Step 1.
+<br />Remarks: The input files for MDCoX program is the output files from pre-processing Step 1.
 
 b) Command: Rscript MDCoX.R processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt results/ 
 <br />Remarks:  --help For help how to use it, type: Rscript MDCoX.R
