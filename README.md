@@ -19,18 +19,28 @@ outputFolder/ <br />
 
 b) Command:  Rscript  preProcessAttributeAndGeneExpression.R example/attributes.txt example/gene_expressionData.txt preprocessed/
 
-c) Output:  processedExpressionMDCX.txt  processedSampleAttributeMDCX.txt  processedGroupsMDCX.txt  GroupsInfoMDCX.txt
+c) Output:<br />
+processedExpressionMDCX.txt <br />
+processedSampleAttributeMDCX.txt <br />
+processedGroupsMDCX.txt<br />
+GroupsInfoMDCX.txt<br />
 <br />Remarks:  The attribute file must contain header of GeneName (1st column) and related sample IDs. The GeneName column could be the value of gene name or probe ID. The GroupsInfoMDCX.txt file contains all the groups (stratum-wise) information, the group number and related samples’ columns number of the processedExpressionMDC.txt file. You can to refer to this file for group (stratum-wise) information.
 
 2)  Run the MultiDCoX algorithm
 
-a) Input: processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt outputFolder/
+a) Input:<br />
+processedSampleAttributeMDCX.txt<br />
+processedExpressionMDCX.txt<br />
+processedGroupsMDCX.txt<br />
+outputFolder/ <br />
 <br />Remarks: The input files for MDCoX program is the output files from pre-processing in Step 1.
 
 b) Command: Rscript MDCoX.R processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt results/ 
 <br />Remarks:  --help For help how to use it, type: Rscript MDCoX.R
 
-c) Output:  MultiDCoxGenesetResults_15_29_59_07_10_2016.txt  Threshold_Density_Plot.png
+c) Output:<br />
+MultiDCoxGenesetResults_15_29_59_07_10_2016.txt<br />
+Threshold_Density_Plot.png<br />
 
 3)  To retrieve a particular geneset statistic (the related covariates’ model statistic) and its factor-wise or group-wise visualization plots.
 
