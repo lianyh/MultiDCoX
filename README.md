@@ -1,15 +1,26 @@
 MultiDCoX - Manual
 
-Example Data:
-
+Example Datasets
+-------------------
 Please refer to an "example" folder data for a list of files and format required for the input to MDCoX program.
 
 Remarks:
-
 All data files’ contents must be tab-separatedThe gene expression file’s first column should be a gene symbols (name) or probe Id. We do not encourage empty gene name or symbol neither the gene name with NA label.  If the user gives the gene name or symbol with NA we will exclude these rows for further processing by MDCoX.
 
-Steps To Run MDCoX:
+Simulated Data with Co-expressed Genesets
+-----------------------------------------
+The simulated data (in "example" folder) contains a few co-expressed genesets under different factors, the true positive genesets with its indices as follows:
 
+a) For ER+,P53+ only:
+   4,6,12,14,18,20,29,36,40,44,49,61,72,74,81,84,89,97,99,362
+
+b) For ER- only:
+   7,76,180,195,217,328,373,393,400,401,411,432,456,471,480,482,489,490,494,497
+
+Notes: You will expect the simulated results contain the genesets (indices) as above.
+
+Steps To Run MDCoX
+---------------------
 1)  Re-organize the input files (gene expression data and attribute file) such that samples are organized based on the group or stratum.
 
 a) Input: <br />
