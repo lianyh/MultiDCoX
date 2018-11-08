@@ -1,4 +1,5 @@
 MultiDCoX - Manual
+------------------
 
 Example Datasets
 -------------------
