@@ -74,5 +74,5 @@ STRATUM_Plot_10_52_39_09_10_xxx.png
 <br />
 <br />
 <br />
-Please contact the author of this program Herty Liany, email: e0146315@u.nus.edu if you encountered any problems. Thank you.
+Please contact the author of this program Herty Liany, email: e0146315@u.nus.edu if you encountered any problems. <br /> Thank you.
 <br />#(2017)
