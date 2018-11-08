@@ -48,7 +48,7 @@ outputFolder/ <br />
 <br />Remarks: The input files for MDCoX program is the output files from pre-processing Step 1.
 
 b) Command: Rscript MDCoX.R processedSampleAttributeMDCX.txt processedExpressionMDCX.txt processedGroupsMDCX.txt results/ 
-<br />Remarks:  --help For help how to use it, type: Rscript MDCoX.R
+<br />Remarks:  --help For help how to use it, type: Rscript MDCoX.R --help
 
 c) Output:<br />
 MultiDCoxGenesetResults_15_29_59_06_10_xxx.txt<br />
