@@ -20,7 +20,7 @@ b) For ER- only:
 
 Notes: You will expect the simulated results (for different factors) contain the genesets (indices) as above.
 
-Steps To Run MDCoX
+Steps To Run MultiDCoX
 ---------------------
 1)  Re-organize the input files (gene expression data and attribute file) such that samples are organized based on the group or stratum.
 
