@@ -18,7 +18,7 @@ a) For ER+,P53+ only:
 b) For ER- only:
    7,76,180,195,217,328,373,393,400,401,411,432,456,471,480,482,489,490,494,497
 
-Notes: You will expect the simulated results contain the genesets (indices) as above.
+Notes: You will expect the simulated results (for different factors) contain the genesets (indices) as above.
 
 Steps To Run MDCoX
 ---------------------
