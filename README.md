@@ -10,12 +10,12 @@ All data files’ contents must be tab-separatedThe gene expression file’s fir
 
 Simulated Data with Co-expressed Genesets
 -----------------------------------------
-The simulated data (in "example" folder) contains a few co-expressed genesets under different factors, the true positive genesets with its indices as follows:
+The simulated data (in "example" folder) contains a few co-expressed genesets under different factors, the true positive genesets with its indices as follows:<br />
 
-a) For ER+,P53+ only:
+a) For ER+,P53+ only:<br />
    4,6,12,14,18,20,29,36,40,44,49,61,72,74,81,84,89,97,99,362
 
-b) For ER- only:
+b) For ER- only:<br />
    7,76,180,195,217,328,373,393,400,401,411,432,456,471,480,482,489,490,494,497
 
 Notes: You will expect the simulated results (for different factors) contain the genesets (indices) as above.
