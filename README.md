@@ -3,7 +3,7 @@ MultiDCoX - Manual
 
 Example Datasets
 -------------------
-Please refer to an "example" folder data for a list of files and format required for the input to MDCoX program.
+Please refer to an "example" folder  for a list of files and format required for the input to MDCoX program.
 
 Remarks:
 All data files’ contents must be tab-separatedThe gene expression file’s first column should be a gene symbols (name) or probe Id. We do not encourage empty gene name or symbol neither the gene name with NA label.  If the user gives the gene name or symbol with NA we will exclude these rows for further processing by MDCoX.
