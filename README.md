@@ -36,7 +36,7 @@ processedExpressionMDCX.txt <br />
 processedSampleAttributeMDCX.txt <br />
 processedGroupsMDCX.txt<br />
 GroupsInfoMDCX.txt<br />
-<br />Remarks:  The attribute file must contain header of GeneName (1st column) and related sample IDs. The GeneName column could be the value of gene name or probe ID. The GroupsInfoMDCX.txt file contains all the groups (stratum-wise) information, the group number and related samples’ columns number of the processedExpressionMDC.txt file. You can to refer to this file for group (stratum-wise) information.
+<br />Remarks:  The attribute file must contain header of GeneName (1st column) and related sample IDs. The GeneName column could be the value of gene name or probe ID. The GroupsInfoMDCX.txt file contains all the groups (stratum-wise) information, the group number and related samples’ columns number from the processedExpressionMDC.txt file.
 
 2)  Run the MultiDCoX algorithm
 
